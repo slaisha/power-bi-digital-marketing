@@ -3,15 +3,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/slaisha/power-bi-finance-salon">
-    <img src="images/budget.svg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/slaisha/power-bi-digital-marketing">
+    <img src="images/Marketing Thumbnail.png" alt="Logo" width="300">
   </a>
 
-<h3 align="center">Wellness Salon - Financial P&L Dashboard</h3>
+<h3 align="center">Digital Marketing Dashboard</h3>
 
   <p align="center">
 
-This comprehensive dashboard is designed to provide detailed insights into the financial performance of Lotus Wellness salons across various locations. It focuses on profit and loss metrics to help stakeholders understand the financial health of the business and identify areas for improvement.
+The Digital Marketing Dashboard is a comprehensive Power BI project that provides an in-depth overview of key digital marketing metrics related to vehicle sales. It offers insights into web visits, qualified shopping visits, Google demand comparisons, leads, reservations, new vehicle sales, and performance summaries, enabling stakeholders to make informed strategic decisions and optimize marketing efforts.
+
+
 
   </p>
 </div>
@@ -36,9 +38,13 @@ This comprehensive dashboard is designed to provide detailed insights into the f
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-The Lotus Wellness Financial P&L Dashboard is an essential tool for managing and understanding the financial performance of Lotus Wellness salons across various locations. This project aims to provide a clear and detailed view of the profit and loss metrics, enabling stakeholders to make informed decisions and identify opportunities for growth and efficiency improvements. 
+This dashboard leverages advanced data visualization and analysis tools to track and analyze vehicle sales performance, web traffic from different tiers, and qualified shopping visits. It also compares vehicle demand against competitors using Google data, and manages leads and reservations to provide a complete picture of new vehicle sales. The project integrates data from Oracle Data Warehouse, Treasure Data Customer Data Platform, Adobe Analytics, Google BigQuery, and Salesforce, ensuring comprehensive and accurate insights for digital marketing optimization.
 
-The dashboard covers multiple aspects of financial performance, including revenue analysis, expense breakdown, and profit and loss summaries. By integrating data from all salon locations, the dashboard offers a comprehensive overview of the financial health of the business, highlighting key areas that require attention and optimization.
+
+
+
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -47,8 +53,12 @@ The dashboard covers multiple aspects of financial performance, including revenu
 ### Built With
 ###### Data Sources and Tools
 * **Power BI**: The main tool for data visualization and dashboard creation, offering advanced features for interactive and real-time analysis.
-* **Snowflake**: Used for processing and analyzing large datasets, leveraging its robust data warehousing capabilities.
-* **dbt (data build tool)**: Used for transforming data within the warehouse, supporting efficient and scalable analytics workflows.
+* **Oracle Data Warehouse**: Utilized for storing and processing large datasets, providing robust data warehousing capabilities.
+* **Customer Data Platform (Treasure Data)**: Employed for managing and analyzing customer data to gain deeper insights.
+* **Adobe Analytics**: Used for tracking and analyzing web visit data, offering detailed insights into user behavior.
+* **Google Demand (BigQuery)**: Leveraged for comparing vehicle demand among competitors using Google's data.
+* **Salesforce**: Used for managing leads data, enabling efficient tracking and analysis of lead generation efforts.
+
 
 
 
@@ -68,13 +78,15 @@ The dashboard covers multiple aspects of financial performance, including revenu
 <!-- SCREENSHOTS -->
 ## Screenshots
 
+**Digital Marketing Dashboard Overview**: A snapshot of the dashboard showcasing individual KPI cards for each metric.
+- **Vehicle Sales Overview**: Tracks and analyzes vehicle sales performance.
+- **Web Visits Analysis**: Monitors web visits segmented by three different tiers.
+- **Qualified Shopping Visits**: Measures the number of qualified shopping visits to the website.
+- **Google Demand Analysis**: Compares vehicle demand against competitors using data from Google.
+- **Lead Management**: Tracks leads generated through various marketing channels.
+- **Reservation and Sales Tracking**: Monitors reservations and new vehicle sales.
+- **Performance Summaries**: Provides detailed weekly and monthly overviews to gauge growth and sustainability.
 
-**Financial P&L Dashboard Overview**: A detailed dashboard focused on the salon's profit and loss metrics.
-- **Balanced Scorecard**: Summarizes key financial indicators such as revenue, expenses, and net profit.
-- **Revenue Analysis**: Tracks revenue streams over time and identifies trends in client spending.
-- **Expense Breakdown**: Details the salon's major expenses, helping to pinpoint areas for cost reduction.
-- **Profit and Loss Summary**: Provides a clear view of the financial health by comparing current profits and losses to previous periods.
-- **Trend Analysis**: Analyzes year-over-year and month-over-month financial performance to gauge growth and sustainability.
 
 
 
@@ -84,64 +96,16 @@ The dashboard covers multiple aspects of financial performance, including revenu
 <div align="center">
 
 <!-- Image with GitHub Link -->
-<b>Financial Performance Overview</b> (1/6) 
+<b>Digital Marketing Overview Page</b>
 
 <div>
-  <a href="https://github.com/slaisha/power-bi-finance-salon/blob/master/images/Financial-Package-1.png">
-    <img src="images/Financial-Package-1.png" style="max-width: 100%; height: auto;">
+  <a href="https://github.com/slaisha/power-bi-digital-marketing/blob/master/images/Financial-Package-1.png">
+    <img src="images/Digi-Mkgt-Overview-1.png" style="max-width: 100%; height: auto;">
   </a>
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-<b>Balanced Scorecard</b>  (2/6) 
-<p>
-<!-- Image with GitHub Link -->
-<div>
-  <a href="https://github.com/slaisha/power-bi-finance-salon/blob/master/images/Financial-Package-2.png">
-    <img src="images/Financial-Package-2.png" style="max-width: 100%; height: auto;">
-  </a>
-</div>
-<p align="right">(<a href="#top">back to top</a>)</p>
-<b>Revenue Trend Analysis</b>  (3/6) 
-<p>
-<!-- Image with GitHub Link -->
-<div>
-  <a href="https://github.com/slaisha/power-bi-finance-salon/blob/master/images/Financial-Package-3.png">
-    <img src="images/Financial-Package-3.png" style="max-width: 100%; height: auto;">
-  </a>
-</div>
-<p align="right">(<a href="#top">back to top</a>)</p>
-<b>Profit & Loss Statement</b>  (4/6) 
-<p>
-<!-- Image with GitHub Link -->
-<div>
-  <a href="https://github.com/slaisha/power-bi-finance-salon/blob/master/images/Financial-Package-4.png">
-    <img src="images/Financial-Package-4.png" style="max-width: 100%; height: auto;">
-  </a>
-</div> 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-
-<!-- Image with GitHub Link -->
-<b>Average Comparison: Corporate vs Area</b>  (5/6) 
-<p>
-<div>
-  <a href="https://github.com/slaisha/power-bi-finance-salon/blob/master/images/Financial-Package-5.png">
-    <img src="images/Financial-Package-5.png" style="max-width: 100%; height: auto;">
-  </a>
-</div>
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- Image with GitHub Link -->
-<b>YOY Variance</b>  (6/6)
-<p>
-<div>
-  <a href="https://github.com/slaisha/power-bi-finance-salon/blob/master/images/Financial-Package-6.png">
-    <img src="images/Financial-Package-6.png" style="max-width: 100%; height: auto;">
-  </a>
-</div>
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
